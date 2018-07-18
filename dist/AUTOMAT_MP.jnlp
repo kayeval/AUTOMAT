@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="AUTOMAT_MP.jnlp">
+  <information>
+    <title>AUTOMAT_MP</title>
+    <vendor>SQ</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="AUTOMAT_MP.jar" size="559686" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AUTOMAT_MP" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Driver.AUTOMAT_MP"  name="AUTOMAT_MP" />
+  <update check="always"/>
+</jnlp>
